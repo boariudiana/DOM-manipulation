@@ -1,0 +1,85 @@
+.container{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 600px;
+    height: 400px;
+    border:1px solid grey;
+    display: float;
+    padding: 20px;
+    padding-left:50px;
+   }
+   img{
+       height: 370px;
+       width: 250px;
+   }
+   .left{
+       float: left;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .right{
+       float: right;
+   }
+   .radio-div{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       padding-left:100px;
+       margin-bottom: 10px;
+   }
+   #first-name, #last-name{
+       min-width:337px;
+       margin-top:10px;
+       margin-bottom:10px;
+   }
+   .submit-btn{
+       align-self:flex-end;
+       margin-top:30px;
+       background-color: mediumslateblue;
+       border:1px solid grey;
+       border-radius: 10%;
+       height: 33px;
+       width: 76px;
+   }
+   
+   #hidden-banner{
+       margin:20px auto;
+       width: 640px;
+       background-color: rgb(171, 201, 171);
+       height: 32px;
+       border-radius: 4px;
+       position:relative;
+       line-height: 0.5em;
+       padding-left: 35px;
+   
+   }
+   #check-mark, #cross-mark{
+       position :absolute;
+   }
+   #check-mark{
+       height: 23px;
+       width: 23px;
+       left: 2px;
+       top:3px;
+       border-radius: 50%;
+   }
+   #cross-mark{
+       height: 16px;
+       width: 16px;
+       right: 5px;
+       top:8px
+   }
+   .text{
+       margin: 50px;
+       color:rgb(75, 99, 75)
+   }
+   
+
+
+  

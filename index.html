@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="hidden-banner" style="display: none;" >
+            <img src="assets/che.png" alt="check-mark image" id="check-mark">
+            <p id="text-hidden"> </p>
+            <img src="assets/cross.png" alt="cross image" id="cross-mark">
+        </div>
+        <div class="form" id="form">
+            <div class="left">
+                <label for="first">
+                    <input type="text" id="first-name" name= "first" required >
+                </label>
+                <label for="last">
+                    <input type="text" id="last-name" name="last" required >
+                </label>
+                <p>Gender</p>
+                <div class="radio-div">
+                    <input type="radio" id="male" name = "gender" value="male" required checked >
+                    <label for="male">M</label>
+                </div>
+                <div class="radio-div">
+                    <input type="radio" id="female" name = "gender" value="female" required>
+                <label for="female">F</label>
+                </div>
+                <label for="mesage"></label>
+                <textarea  id="text-area" name="mesage" cols="40" rows="7" placeholder="Your message here..." required ></textarea>
+                <button type="submit" class="submit-btn" id="validate-btn">Submit</button>
+            </div>
+           <div class="right">
+               <img src="assets/Contact_us.jpg" alt="contact us image">
+           </div>
+        </div>
+    </div>
+    <script src="src/main.js"></script>
+</body>
+</html> 
