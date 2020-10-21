@@ -79,7 +79,9 @@
        margin: 50px;
        color:rgb(75, 99, 75)
    }
-   
+   .red-border{
+       border: 1px solid red;
+   }
 
 
   
